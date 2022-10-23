@@ -86,6 +86,7 @@ class _HomeState extends State<Home> {
     setState(() {
       player1 = [];
       player2 = [];
+      tieGame = [];
       winner = 0;
       xTurn = true;
       for(int i = 0;i < gameButtons.length; i++){
